@@ -96,6 +96,8 @@ The main objective of this project is to analyse temporal patterns, forecast fut
 
 **Debapriyo Bhar**
 
+Student
+
 B.Sc. Major in Statistics
 
 Ramakrishna Mission Residential College (Autonomous)
