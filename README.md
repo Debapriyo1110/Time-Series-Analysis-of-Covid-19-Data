@@ -95,13 +95,8 @@ The main objective of this project is to analyse temporal patterns, forecast fut
 ## Author
 
 **Debapriyo Bhar**
-
-Student
-
 B.Sc. Major in Statistics
-
 Ramakrishna Mission Residential College (Autonomous)
 
 Summer Internship Project
-
 IDEAS Technology Innovation Hub (TIH), ISI Kolkata
