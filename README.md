@@ -1,4 +1,4 @@
-# Time-Series Analysis of COVID-19 Data and Clustering Analysis
+# Time-Series Analysis of COVID-19 Data 
 
 ## Overview
 
@@ -95,8 +95,9 @@ The main objective of this project is to analyse temporal patterns, forecast fut
 ## Author
 
 **Debapriyo Bhar**
-B.Sc. Major in Statistics
-Ramakrishna Mission Residential College (Autonomous)
+,B.Sc. Major in Statistics
+,Ramakrishna Mission Residential College (Autonomous)
 
-Summer Internship Project
+## Summer Internship Project
+
 IDEAS Technology Innovation Hub (TIH), ISI Kolkata
