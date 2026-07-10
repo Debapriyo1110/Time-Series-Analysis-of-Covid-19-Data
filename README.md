@@ -189,11 +189,8 @@ https://www.linkedin.com/in/debapriyo-bhar-5074a6303
 
 <p align="center">
 
-### ⭐ If you found this project useful, please consider giving it a star!
-
 </p>
 
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:4F46E5&height=120&section=footer"/>
 </p>
-````
