@@ -1,103 +1,199 @@
-# Time-Series Analysis of COVID-19 Data 
+# 📈 Time-Series Analysis of COVID-19 Data and Clustering Analysis
 
-## Overview
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=250&section=header&text=Time-Series%20Analysis%20of%20COVID-19%20Data&fontSize=35&fontColor=ffffff"/>
+</p>
 
-This project explores the application of statistical and machine learning techniques on real-world datasets. It combines **time-series forecasting** on global COVID-19 case data with **unsupervised learning** on the MNIST handwritten digit dataset.
+<p align="center">
 
-The main objective of this project is to analyse temporal patterns, forecast future observations, and identify hidden structures in high-dimensional data.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-8B0000?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
 
----
-
-## Dataset Used
-
-### 1. WHO COVID-19 Global Daily Dataset
-
-* Daily global COVID-19 case records
-* Used for exploratory data analysis and time-series forecasting
-
-### 2. MNIST Handwritten Digit Dataset
-
-* Image dataset of handwritten digits (0–9)
-* Used for clustering analysis
+</p>
 
 ---
 
-## Project Workflow
+# 📖 Project Overview
 
-### COVID-19 Time-Series Analysis
+This project explores the application of **Statistics**, **Time-Series Forecasting**, and **Machine Learning** techniques on real-world datasets.
 
-* Data preprocessing and cleaning
-* Exploratory Data Analysis (EDA)
-* Moving average analysis
-* Growth rate analysis
-* Seasonal decomposition
-* Stationarity testing using ADF test
-* ACF and PACF analysis
-* Forecasting using:
+The project consists of two major components:
 
-  * ARIMA
-  * SARIMA
-  * Holt-Winters Exponential Smoothing
-* Model comparison using AIC and BIC
+📈 **Time-Series Analysis of the WHO COVID-19 Global Daily Dataset**
 
-### Clustering Analysis
+🤖 **Clustering Analysis of the MNIST Handwritten Digit Dataset**
 
-* K-Means Clustering
-* Hierarchical Clustering
-* PCA for dimensionality reduction
-* Cluster visualization
-* Performance evaluation using Macro F1 Score
+The primary objective is to understand temporal patterns, perform forecasting, and discover hidden structures in high-dimensional data.
 
 ---
 
-## Results
+# 🌍 Dataset Used
 
-* Holt-Winters Exponential Smoothing achieved the best forecasting performance based on AIC and BIC values.
-* SARIMA performed better than ARIMA by capturing seasonal effects.
-* K-Means and Hierarchical Clustering successfully identified meaningful patterns in the MNIST dataset.
+## 1️⃣ WHO COVID-19 Global Daily Dataset
 
----
+- Daily confirmed COVID-19 cases.
+- Global and regional case trends.
+- Used for forecasting and time-series analysis.
 
-## Technologies Used
+## 2️⃣ MNIST Handwritten Digit Dataset
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Statsmodels
-* Scikit-learn
-* SciPy
-* Google Colab
+- Handwritten digits (0–9).
+- Used for clustering and dimensionality reduction.
 
 ---
 
-## Key Learnings
+# 🔍 Exploratory Data Analysis
 
-* Time-series modelling and forecasting
-* Model selection and diagnostics
-* Seasonal pattern analysis
-* Unsupervised machine learning
-* Dimensionality reduction using PCA
-* Clustering performance evaluation
+✔ Data preprocessing and cleaning
 
----
+✔ Missing value treatment
 
-## Future Scope
+✔ Global and regional trend analysis
 
-* Prophet model for forecasting
-* LSTM-based forecasting
-* DBSCAN clustering
-* Advanced anomaly detection
+✔ Daily and monthly case distributions
+
+✔ Visualization of pandemic waves
 
 ---
 
-## Author
+# 📈 Time-Series Analysis
 
-**Debapriyo Bhar**
-,B.Sc. Major in Statistics
-,Ramakrishna Mission Residential College (Autonomous)
+The following statistical techniques were applied:
 
-## Summer Internship Project
+- Moving Average Analysis
+- Growth Rate Analysis
+- Seasonal Decomposition
+- Augmented Dickey–Fuller (ADF) Test
+- ACF and PACF Analysis
+- Residual Diagnostics
 
-IDEAS Technology Innovation Hub (TIH), ISI Kolkata
+---
+
+# 🚀 Forecasting Models
+
+## ARIMA Model
+
+- Model identification using ACF and PACF.
+- Forecasting future observations.
+- Residual analysis.
+
+## SARIMA Model
+
+- Seasonal forecasting model.
+- Weekly seasonal effects incorporated.
+- Model comparison using AIC and BIC.
+
+## Holt-Winters Exponential Smoothing
+
+- Trend and seasonality modelling.
+- Best-performing forecasting model based on AIC and BIC.
+
+---
+
+# 🤖 Machine Learning Analysis
+
+## K-Means Clustering
+
+- Unsupervised learning technique.
+- Applied on the MNIST dataset.
+- Cluster evaluation using Macro F1 Score.
+
+## Hierarchical Clustering
+
+- Dendrogram construction.
+- Analysis of cluster relationships.
+
+## Principal Component Analysis (PCA)
+
+- Dimensionality reduction.
+- Two-dimensional visualization of clusters.
+
+---
+
+# 📊 Project Workflow
+
+```mermaid
+flowchart LR
+A[Data Collection] --> B[Data Preprocessing]
+B --> C[Exploratory Data Analysis]
+C --> D[Time-Series Analysis]
+D --> E[Forecasting Models]
+C --> F[Clustering Analysis]
+F --> G[PCA Visualization]
+```
+
+---
+
+# 🏆 Key Findings
+
+✅ The COVID-19 series exhibits significant seasonal behaviour.
+
+✅ SARIMA performed better than ARIMA by capturing seasonality.
+
+✅ Holt-Winters achieved the lowest AIC and BIC values.
+
+✅ K-Means and Hierarchical Clustering successfully identified meaningful structures in the MNIST dataset.
+
+---
+
+# 🛠️ Technologies Used
+
+| Category | Tools |
+|----------|--------|
+| Programming | Python |
+| Libraries | Pandas, NumPy, Matplotlib, Seaborn |
+| Statistics | Statsmodels, SciPy |
+| Machine Learning | Scikit-Learn |
+| Development | Jupyter Notebook, Google Colab |
+
+---
+
+# 📂 Repository Structure
+
+```text
+├── data/
+├── notebooks/
+├── figures/
+├── report/
+├── README.md
+```
+
+---
+
+# 📄 Project Report
+
+📥 Project Report: `report/Project_Report.pdf`
+
+---
+
+# 📬 Author
+
+## Debapriyo Bhar
+
+🎓 B.Sc. Major in Statistics
+
+🏫 Ramakrishna Mission Residential College (Autonomous)
+
+🔬 Summer Intern, IDEAS Technology Innovation Hub (TIH), ISI Kolkata
+
+📧 Email: debapriyobhar@gmail.com
+
+💼 LinkedIn:
+https://www.linkedin.com/in/debapriyo-bhar-5074a6303
+
+---
+
+<p align="center">
+
+### ⭐ If you found this project useful, please consider giving it a star!
+
+</p>
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:4F46E5&height=120&section=footer"/>
+</p>
+````
