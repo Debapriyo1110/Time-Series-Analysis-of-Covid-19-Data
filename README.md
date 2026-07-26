@@ -12,17 +12,29 @@ Summer Internship Project • IDEAS Technology Innovation Hub (TIH) • Indian S
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-<img src="https://img.shields.io/github/license/Debapriyo1110/Time-Series-Analysis-of-Covid-19-Data?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas"/>
 
-<img src="https://img.shields.io/github/last-commit/Debapriyo1110/Time-Series-Analysis-of-Covid-19-Data?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy"/>
 
-<img src="https://img.shields.io/github/repo-size/Debapriyo1110/Time-Series-Analysis-of-Covid-19-Data?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Statsmodels-8B0000?style=for-the-badge"/>
 
-<img src="https://img.shields.io/github/languages/count/Debapriyo1110/Time-Series-Analysis-of-Covid-19-Data?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn"/>
 
-<img src="https://img.shields.io/github/stars/Debapriyo1110/Time-Series-Analysis-of-Covid-19-Data?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge"/>
+
+</p>
+
+<p align="center">
+
+🎓 Summer Internship Project
+
+🏛️ IDEAS Technology Innovation Hub (TIH)
+
+📍 Indian Statistical Institute (ISI), Kolkata
+
+📊 Time-Series Analysis • Machine Learning • Statistical Forecasting
 
 </p>
 
